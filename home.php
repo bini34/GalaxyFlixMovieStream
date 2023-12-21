@@ -8,43 +8,49 @@
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
+    <!-- header -->
+    <div class="header">
+        <a href="/home.php" >
+            <img src="/pictures/logo.png" alt="logo-image">
+        </a>
+    </div>
     <!-- side bar -->
     <div class="side_bar_container">
         <ul class="nav_list">
-            <li>
+            <li class="profile">
                 <a href="#">
                 <i class="ri-account-circle-line"></i>
-                USER NAME
+                 <span>USER NAME</span>
                 </a>
             </li>
-            <li>
+            <li cl>
                 <a href="#">
                 <i class="ri-search-line"></i>
-                <input type="text" placeholder="SEARCH">
+                <span>SEARCH</span>
                 </a>
             </li>
             <li>
-                <a href="home.php">
+                <a href="#" class="active">
                 <i class="ri-home-4-fill"></i>
-                HOME
+                <span>HOME</span>
                 </a>
             </li>
             <li>
                 <a href="#">
                 <i class="ri-film-line"></i>
-                MOVIES
+                <span>MOVIES</span>
                 </a>
             </li>
             <li>
                 <a href="#">
                 <i class="ri-slideshow-3-line"></i>
-                SHOWS
+                <span>SHOWS</span>
                 </a>
             </li>
-            <li>
-                <a href="">
+            <li class="setting">
+                <a href="#">
                 <i class="ri-settings-3-line"></i>
-                SETTINGS
+                <span>SETTINGS</span>
                 </a>
             </li>
         </ul>
