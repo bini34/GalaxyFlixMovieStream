@@ -13,20 +13,22 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    width: 60px;
-    height: 60px;
+    width: 100%;
+    height: 6px;
     display: flex;
     align-items: center;
-    z-index: 2;
-    transition: background-color 0.5s ease;
-    border-bottom: #ffffff 5px;
-}
+    z-index: 3;
+    transition: background-color 0.5s ease, border-bottom 0.5s ease;
+    border-bottom: 10px solid  radial-gradient(
+        rgb(255, 255, 255) 70%, 
+        rgba(255, 255, 255, 0) 80%);
+    }
 .header a img{
-    width: 250px;
-    height: 120px;
+    width: 30%;
+    height: 100%;
     background: transparent;
-    padding-top: 50px;
-}
+     margin-top: 100px;
+    }
 /* side bar */
 .side_bar_container{
     position: fixed;
@@ -72,14 +74,13 @@ body{
             0px 0px 112px -41px rgb(122, 255, 0),
             0 10px 26px -5px rgb(168, 174, 173);
 }
-
 .side_bar_container ul li a i{
     height: 50px;
     min-width: 50px;
     border-radius: 12px;
     line-height: 50px;
     color: #8A8E94;
-    font-size: 25px
+    font-size: 25px;
 }
 .side_bar_container ul li a i:active{
     height: 50px;
@@ -87,7 +88,7 @@ body{
     border-radius: 12px;
     line-height: 50px;
     color: #ffffff;
-    font-size: 25px
+    font-size: 25px;
 }
 .side_bar_container ul li span{
     font-size: 15px;
@@ -98,4 +99,8 @@ body{
 }
 .setting{
     padding-top: 200px;
+}
+
+.main-header{
+    
 }
